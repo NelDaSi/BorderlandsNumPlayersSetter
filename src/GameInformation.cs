@@ -11,7 +11,7 @@ namespace BorderlandsNumPlayersSetter
             Games = new List<GameInformation>();
             Games.Add(new GameInformation()
             {
-                ProcessName = "Borderlands",
+                ProcessName = "BorderlandsGOTY",
                 ValToFind = new byte[] { 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 04, 00, 00, 00, 04, 00, 00, 00, 1, 00, 00, 00, 1, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 01, 00, 00, 00 },
                 ValToFindWildcard = new byte?[] { 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 04, 00, 00, 00, 04, 00, 00, 00, default(byte?), 00, 00, 00, default(byte?), 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 01, 00, 00, 00 },
                 ValToChangeOffset = new int[] { 20, 24 }
